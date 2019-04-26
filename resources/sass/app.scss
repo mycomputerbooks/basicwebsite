@@ -1,0 +1,77 @@
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+$theme-colors: (
+  "dark": #e07a61
+//   "primary" : #521751,
+//   "danger" : #b80c03
+);
+
+.dropdown-menu {
+    background-color: #e07a61 !important;
+}
+
+// .dropdown-toggle {
+//     color: red !important;
+// }
+
+$dropdown-link-color:               white;
+$dropdown-link-hover-color:         yellow;
+$dropdown-link-hover-bg:            orange;
+
+$dropdown-link-active-color:        green;
+$dropdown-link-active-bg:           blue;
+
+
+.my-row {
+    border: 3px solid red;
+    // height: 200px;
+}
+
+.my-row2 {
+    border: 3px solid blue;
+    // height: 200px;
+}
+
+.my-col {
+    border: 3px dotted blue;
+  }
+
+.my-col2 {
+    border: 3px dotted red;
+}
+
+.my-card-body {
+    padding-top: 5px !important;
+}
+
+// .txtBlue {
+//     hover {
+//         color: blue !important;
+//     }
+// }
+
+
+.menuName {
+    color: red !important;
+}
+
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~toastr/toastr.scss';
+
+
+// Custom
+@import "custom";
+
+// .navbar-laravel {
+//   background-color: #fff;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
+
+
+
